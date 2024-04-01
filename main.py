@@ -34,8 +34,8 @@ music_info = list(zip(song_names, artist_name))
 #Spotify authentication
 
 
-SPOTIFY_CLIENT_ID = "5dadeb79d0ee4e1b893cbea2837e3ed8"
-UNIQUE_CLIENT_SECRET = "1b8d37e406fc4060916e2633111d6759"
+SPOTIFY_CLIENT_ID = ""
+UNIQUE_CLIENT_SECRET = ""
 
 sp= spotipy.Spotify(
     auth_manager = SpotifyOAuth(
