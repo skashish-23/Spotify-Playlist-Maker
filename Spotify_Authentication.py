@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import os
 
-os.environ["SPOTIFY_CLIENT_ID"] = "5dadeb79d0ee4e1b893cbea2837e3ed8"
-os.environ["UNIQUE_CLIENT_SECRET"] = "1B8D37E406FC4060916E2633111d6759"
+os.environ["SPOTIFY_CLIENT_ID"] = ""
+os.environ["UNIQUE_CLIENT_SECRET"] = ""
 
 sp= spotipy.Spotify(
     auth_manager = SpotifyOAuth(
